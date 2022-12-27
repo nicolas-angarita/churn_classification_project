@@ -191,3 +191,7 @@ Evaluate on Validate (Report.ipynb)
 Evaluate Top Model on Test (Report.ipynb)
 
 Your top performing model, and only your top performing model should be evaluated on your test dataset. The purpose of having a test dataset to evaluate only the final model on is to have an estimate of how the model will perform in the future on data it has never seen.
+
+Data Dictionary
+
+|Feature	Definition| Data Dictionary
