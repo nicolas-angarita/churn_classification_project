@@ -1,20 +1,17 @@
+# To Churn or not to Churn ?
+
 # Project Goals
 
-Your readme should include a clear project goal that reflect on what you are trying to achieve for the business/organization (in the scenario layed out). Your goal is never just to create an algorithm or model or to purely make discoveries in exploration...it includes the why. "My goal is to..., so that..." Your goal should be specific enough to know when you have reached it and concise enough to keep in 1-2 sentences. "My goal is to identify key drivers of churn, which customers at risk of churn, and make recommendations for changes so that we can reduce the monthly churn rate and increase customer retention." This helps tell you when you have reached a minimally viable product (including a presentation and predictions, in this example scenario).
+My goal is to identify key drivers of churn. To see which customers are at risk of churning, and make recommendations for changes, so that we can reduce the monthly churn rate and at the same time increase customer retention.
 
-For example:
+## Project Description
 
-The goal of this project is to identifty the attributes of passengers who survived the Titanic shipwreck in order to make receommendations of the best way to travel on a ship to maximize chance of survival should the ship run into a devastating end.
-
-Project Description
+Anytime a business is struggling, they have to revert to the basic questions of business and answer who is the customer and what makes them stay or leave. In this case why does it seem like so many customers are churning. What are key drivers that are turning our customers away. Could it be the services we are providing, our pricing policy, our target market (age of customer, gender, etc.), or other drivers. We will analyze some of the drivers just mentioned to see if we can come up with a model to see what is causing our customers to chun. Once we have ran our models we will make recommendations on how to better retain our customers from churning in the future. 
 
 Your readme should include a project description that provides context for your project, including explaining why you are tackling this project, why it is important and how it could be of use to someone else beyond just the interest or new knowledge. It dives in a bit deeper than the goals. Project description and goals should always be in your words and specific to your project, not a copy of the class project spec. Here's the problem, here's how I want to address it, here's what I will deliver
 
-For example:
 
-The weather is getting more and more extreme and unpredictable. We often think of the Titanic is something in the past that won't happen again. However, these events could become more frequent with the change in the oceanic warming and atmospheric changes. We will analyze the attributes of passengers who were more or less likely to survive, develop a model for predicting survival based on those attributes, and leave with both recommendations for future passengers and predictions of survival for a list of passengers on the next ship leaving (delivered via csv).
-
-Initial Questions
+## Initial Questions
 
 Your readme should include initial questions and focus you are going into the analysis with. This is an important part of project planning and gives context to the reader about where you started, what were your initial ideas and thoughts, and did those play out to be true.
 
@@ -26,7 +23,7 @@ Do those who travel first class get quicker access to life boats?
 
 Do families with small children get priority access? Even if they at the bottom of the boat in 3rd class?
 
-Data Dictionary
+## Data Dictionary
 
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
@@ -34,7 +31,8 @@ For example:
 
 Variable	Meaning
 Survived	
-Steps to Reproduce
+
+## Steps to Reproduce
 
 Your readme should include useful and adequate instructions for reproducing your analysis and final report.
 
@@ -44,11 +42,13 @@ You will need an env.py file that contains the hostname, username and password o
 clone my repo (including the acquireTitanic.py and prepare.Titanic.py) (confirm .gitignore is hiding your env.py file)
 libraries used are pandas, matplotlib, seaborn, numpy, sklearn.
 you should be able to run survival_report.
-The Plan
+
+
+## The Plan
 
 Your readme should include a project plan which helps guide both the user and yourself through the different stages of the pipeline and steps you took to get to your conclusion.
 
-Wrangle
+### Wrangle
 
 Modules (acquire.py + prepare.py)
 
@@ -101,7 +101,8 @@ The functions should be called to prepare your data (as opposed to re-writing th
 For example:
 
 once acquire.py and prepare.py are created and tested, import into final report notebook to be ready for use.
-Explore
+
+### Explore
 
 Ask a clear question, [discover], provide a clear answer (report.ipynb)
 
@@ -167,7 +168,7 @@ Following your exploration section, you summarize your analysis (in a markdown c
 
 This includes key takeaways from all the questions answered in explore, a list of which features will be used in modeling and why, and which features will not move forward and why. You may only call out a few of these features in the presentation, but having that there for reference is important in a report. A group of features may have the same reason why, and those can be mentioned together.
 
-Modeling
+### Modeling
 
 Select Evaluation Metric (Report.ipynb)
 
