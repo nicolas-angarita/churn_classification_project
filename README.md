@@ -56,11 +56,26 @@ Does tenure affect churn?
 
 ## Steps to Reproduce
 
-Your readme should include useful and adequate instructions for reproducing your analysis and final report.
+ - You will need an env.py file that contains the hostname, username and password of the mySQL database that contains the telco dataset. Store that env file locally in the repository.
 
-For example:
+- Clone my repo including the acquire.py and prepare.py (make sure to create a .gitignore to hide your env.py file since it will have your credentials)
 
-You will need an env.py file that contains the hostname, username and password of the mySQL database that contains the titanic_db.passengers table. Store that env file locally in the repository.
-clone my repo (including the acquireTitanic.py and prepare.Titanic.py) (confirm .gitignore is hiding your env.py file)
-libraries used are pandas, matplotlib, seaborn, numpy, sklearn.
-you should be able to run survival_report.
+- Put the data in the file containing the cloned repo.
+
+- Run notebook.
+
+## Takeaways and Conclusions
+
+Upsets occur in 1/3 of games
+In games where the lower rated player moves first there is a 4% greater chance of an upset
+Games that are rated have a 3% higher chance of an upset
+Games with a "quick" time control (30 min or less) have about a 1 in 3 chance of upset
+Games with a "slow" time control (60 min or more) have about a 1 in 5 chance of upset
+The mean rating of players in a game is not a driver of upsets
+The difference in player rating is a driver of upsets
+A player's choice of opening is a driver of upsets, however its influence is complicated and I would need more time to discover what role it plays
+
+
+## Recommendations
+To increase the skill intensity of a game add to the length of time players are able to consider their moves
+Based on the data longer time controls make it less likely for a less skilled player to beat a more skilled player
