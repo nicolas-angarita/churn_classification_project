@@ -10,11 +10,11 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 # Initial Questions
 
-Do customers with partners and dependents churn more than those with no dependents?
-Is there a difference in age on who is churning?
-Do number of add-ons affect rate of churn?
-Are Senior citizens more or less likely to churn than non Senior Citizens?
-Does tenure affect churn?
+ 1. Do customers with partners and dependents churn more than those with no dependents?
+ 2. Is there a difference in age on who is churning?
+ 3. Do number of add-ons affect rate of churn?
+ 4. Are Senior citizens more or less likely to churn than non Senior Citizens?
+ 5. Does tenure affect churn?
 
 # The Plan
 
