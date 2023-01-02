@@ -11,10 +11,9 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 # Initial Questions
 
  1. Do customers with partners and dependents churn more than those with no dependents?
- 2. Is there a difference in age on who is churning?
- 3. Do number of add-ons affect rate of churn?
- 4. Are Senior citizens more or less likely to churn than non Senior Citizens?
- 5. Does tenure affect churn?
+ 2. Does the type of contract a customer have make it more likley to churn?
+ 3. Are customers with DSL more or less likely to churn?
+ 4. Are Senior Citizens more or less likely to churn than non Senior Citizen?
 
 # The Plan
 
@@ -26,12 +25,12 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 ### Prepare Data
  - Clean and prepare the data creating a function that will give me data that is ready to be explored upon. Within this step we will also write a function to split our data into train, validate, and test. (prepare.py) 
  
- - Establish a baseline accuracy
- 
 ### Explore Data
  - Create at least two hypotheses, set an alpha, run the statistical tests needed, reject or fail to reject the Null Hypothesis, document any findings and takeaways that are observed.
  
 ### Model Data 
+ - Establish a baseline accuracy
+ 
  - Create and train three classification models.
  
  - Evaluate models on train and validate datasets.
@@ -46,10 +45,57 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 ## Data Dictionary
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+| Target Variable |     Definition     |
+| --------------- | ------------------ |
+|      Churn      | 1 is customer left |
+
+| Feature  | Definition | Encoded |
+| ------------- | ------------- | ------------|
+| customer_id  | Unique id for each customer  |
+| payment_type |
+| gender_encoded | 0 if the customer is male| 1 if the customer is female | 
+	
+ 
+',
+ 'internet_service_type_id',
+ 'contract_type_id',
+ 'customer_id',
+ 'gender',
+ 'senior_citizen',
+ 'partner',
+ 'dependents',
+ 'tenure',
+ 'phone_service',
+ 'multiple_lines',
+ 'online_security',
+ 'online_backup',
+ 'device_protection',
+ 'tech_support',
+ 'streaming_tv',
+ 'streaming_movies',
+ 'paperless_billing',
+ 'monthly_charges',
+ 'total_charges',
+ 'churn',
+ 'contract_type',
+ 'internet_service_type',
+ 'payment_type'] 
+ 
+senior_citizen	1 if customer is a senior citizen	
+tenure	Months of tenure as a customer	int
+monthly_charges	The customer's monthly bill	float
+total_charges	The customer's total bills since they have been a customer	float
+is_male		int
+partner	1 if the customer has a partner	int
+dependents	1 if the customer has dependents	int
+phone	1 if the customer has phone service	int
+paperless_billing	1 if the customer has paperliess billing	int
+multiple_lines_yes	1 if the customer has multiple phone lines	int
+online_security_no	1 if the customer has internet but no online security	int
+online_security_yes	1 if the customer has online security add-on	int
+online_backup_no	1 if the customer has internet but no online backup	int
+online_backup_yes	1 if the customer has online backup	int
 
 
 
