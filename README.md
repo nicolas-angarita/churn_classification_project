@@ -31,7 +31,7 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 ### Model Data 
  - Establish a baseline accuracy
  
- - Create and train three classification models.
+ - Create and train four classification models.
  
  - Evaluate models on train and validate datasets.
  
