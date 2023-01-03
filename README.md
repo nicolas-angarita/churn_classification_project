@@ -48,57 +48,33 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 | Target Variable |     Definition     |
 | --------------- | ------------------ |
-|      Churn      | 1 is customer left |
+|      Churn      | yes(1) or no(0) customer left |
 
-| Feature  | Definition | Encoded |
-| ------------- | ------------- | ------------|
-| customer_id  | Unique id for each customer  |
-| payment_type |
-| gender_encoded | 0 if the customer is male| 1 if the customer is female | 
-	
- 
-',
- 'internet_service_type_id',
- 'contract_type_id',
- 'customer_id',
- 'gender',
- 'senior_citizen',
- 'partner',
- 'dependents',
- 'tenure',
- 'phone_service',
- 'multiple_lines',
- 'online_security',
- 'online_backup',
- 'device_protection',
- 'tech_support',
- 'streaming_tv',
- 'streaming_movies',
- 'paperless_billing',
- 'monthly_charges',
- 'total_charges',
- 'churn',
- 'contract_type',
- 'internet_service_type',
- 'payment_type'] 
- 
-senior_citizen	1 if customer is a senior citizen	
-tenure	Months of tenure as a customer	int
-monthly_charges	The customer's monthly bill	float
-total_charges	The customer's total bills since they have been a customer	float
-is_male		int
-partner	1 if the customer has a partner	int
-dependents	1 if the customer has dependents	int
-phone	1 if the customer has phone service	int
-paperless_billing	1 if the customer has paperliess billing	int
-multiple_lines_yes	1 if the customer has multiple phone lines	int
-online_security_no	1 if the customer has internet but no online security	int
-online_security_yes	1 if the customer has online security add-on	int
-online_backup_no	1 if the customer has internet but no online backup	int
-online_backup_yes	1 if the customer has online backup	int
-
-
-
+| Feature  | Definition |
+| ------------- | ------------- |
+| customer_id  | unique id for each customer  |
+| payment_type_id | 1, 2, 3, 4 related to payment type |
+| internet_service_type_id | 1, 2, 3 related to internet service type |
+| contract_type_id | 1, 2, 3 related to contract type |
+| gender | male or female |
+| senior_citizen | yes(1) or no(0) senior citizen |
+| partner | yes or no has a partner | 
+| dependents | yes or no has dependents |
+| tenure | how long the customer has been with company |
+| phone_service | yes or no has phone service |
+| multiple_lines | yes or no has multiple_lines |
+| online_security | yes or no has online security |
+| online_backup | yes or no has online backup |
+| device_protection | yes or no has device protection |
+| tech_support | yes or no has tech support |
+| streaming_tv | yes or no has streaming tv |
+| streaming_movies | yes or no has streaming movies |
+| paperless_billing | yes or no has paperless billing |
+| monthly_charges | monthly charge to customer |
+| total_charges | total charge to customer |
+| contract_type |  month to month, 1 year, 2 month |
+| internet_service_type | Fiber Optic, DSL, None | 
+| payment_type | Electronic check, Mailed check, Bank transfer, Credit card |
 
 ## Steps to Reproduce
 
