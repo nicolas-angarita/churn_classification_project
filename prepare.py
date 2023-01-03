@@ -27,7 +27,7 @@ def prep_telco(telco_df):
                               'online_backup', 'device_protection', 
                               'tech_support', 'streaming_tv',   'streaming_movies',
                               'contract_type', 'internet_service_type', 'payment_type']],
-                              drop_first=True)
+                              drop_first = False)
     
     
     telco_df = pd.concat([telco_df, dummy_df], axis = 1)
