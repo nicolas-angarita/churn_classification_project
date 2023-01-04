@@ -47,7 +47,3 @@ def train_val_test(df,col):
     
     return train, validate, test
 
-
-
-
-
