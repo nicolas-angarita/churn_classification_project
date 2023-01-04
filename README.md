@@ -1,4 +1,4 @@
-# To Churn or not to Churn ?
+# Did they Churn or Not?
 
 # Project Goals
 
