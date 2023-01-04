@@ -88,16 +88,18 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 ## Takeaways and Conclusions
 
-Upsets occur in 1/3 of games
-In games where the lower rated player moves first there is a 4% greater chance of an upset
-Games that are rated have a 3% higher chance of an upset
-Games with a "quick" time control (30 min or less) have about a 1 in 3 chance of upset
-Games with a "slow" time control (60 min or more) have about a 1 in 5 chance of upset
-The mean rating of players in a game is not a driver of upsets
-The difference in player rating is a driver of upsets
-A player's choice of opening is a driver of upsets, however its influence is complicated and I would need more time to discover what role it plays
-
+ - Customers who have dependents and/or partners churned at a much lower rate those those who did not
+  
+ - The longer the contract a customer had the less likely they were to churn. With month-to-month having the most churned customers.
+ 
+ - Customers who have DSL internet are less likely to churn compared to fiber optic internet customers
+ 
+ - Senior citizens are more likely to churn than non senior citizens.
+ 
+Model's performance:
+Accuracy of 85.72% on in-sample (train), 85.59% on out-of-sample data (validate) and an accuracy of 86% on the test data.
 
 ## Recommendations
-To increase the skill intensity of a game add to the length of time players are able to consider their moves
-Based on the data longer time controls make it less likely for a less skilled player to beat a more skilled player
+We would want to target those who have dependents and/or partners to be our target market. Seeing that customers that have dependents and/or a partner churn at a lower rate, perhaps we could implement promotions that encourage clients to add partners and dependents to account with the added bonus.
+
+I would recommend promoting longer contracts for our customers or figure out why month to month customers are churning at such a high rate.
