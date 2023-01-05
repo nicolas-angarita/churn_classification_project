@@ -2,7 +2,8 @@
 
 # Project Goals
 
-My goal is to identify key drivers of churn. To see which customers are at risk of churning, and make recommendations for changes, so that we can reduce the monthly churn rate and at the same time increase customer retention.
+ - Identify key drivers of churn. 
+ - Predict which customers are at risk of churning
 
 # Project Description
 
@@ -10,9 +11,9 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 # Initial Questions
 
- 1. Do customers with partners and dependents churn more than those with no dependents?
+ 1. Do customers with partners or dependents churn more than those with no dependents or partner?
  2. Does the type of contract a customer have make it more likley to churn?
- 3. Are customers with DSL more or less likely to churn?
+ 3. Are customers with different internet service more or less likely to churn?
  4. Are Senior Citizens more or less likely to churn than non Senior Citizen?
 
 # The Plan
@@ -78,11 +79,11 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 ## Steps to Reproduce
 
- - You will need an env.py file that contains the hostname, username and password of the mySQL database that contains the telco dataset. Store that env file locally in the repository.
+ - You will need an env.py file that contains the hostname, username and password of mySQL database that contains the telco dataset. Store that env.py file locally in the repository.
 
-- Clone my repo including the acquire.py and prepare.py (make sure to create a .gitignore to hide your env.py file since it will have your credentials)
+- Clone my repo including the acquire.py, prepare.py, and explore.py (make sure to create a .gitignore to hide your env.py file since it will have your credentials to access the data)
 
-- Put the data in the file containing the cloned repo.
+- Put the data in a file containing the cloned repo.
 
 - Run notebook.
 
@@ -107,4 +108,4 @@ Accuracy of 85.72% on in-sample (train), 85.59% on out-of-sample data (validate)
 ## Next Steps
 
 - Figure out why month to month and fiber optic customers are churning at such a high rate.
-- Consider adding different hyperparameters to models. 
+- Consider adding different hyperparameters to models for better results. 
