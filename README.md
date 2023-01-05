@@ -88,18 +88,23 @@ Anytime a business is struggling, they have to revert to the basic questions of 
 
 ## Takeaways and Conclusions
 
- - Customers who have dependents and/or partners churned at a much lower rate those those who did not
+ - Customers who have dependents or partners churned at a much lower rate those those who did not
   
  - The longer the contract a customer had the less likely they were to churn. With month-to-month having the most churned customers.
  
- - Customers who have DSL internet are less likely to churn compared to fiber optic internet customers
+ - Customers who have fiber optic internet are more likely to churn compared to other internet customers
  
- - Senior citizens are more likely to churn than non senior citizens.
+ - Non Senior citizens are more likely to churn than senior citizens.
  
-Model's performance:
-Accuracy of 85.72% on in-sample (train), 85.59% on out-of-sample data (validate) and an accuracy of 86% on the test data.
+**Best Model's performance:<br>
+Accuracy of 85.72% on in-sample (train), 85.59% on out-of-sample data (validate) and an accuracy of 86% on the test data.**
 
 ## Recommendations
-We would want to target those who have dependents and/or partners to be our target market. Seeing that customers that have dependents and/or a partner churn at a lower rate, perhaps we could implement promotions that encourage clients to add partners and dependents to account with the added bonus.
+- We would want to target those who have dependents or partners to be within our target market. Seeing that customers that have dependents or a partner churn at a lower rate.
 
-I would recommend promoting longer contracts for our customers or figure out why month to month customers are churning at such a high rate.
+- I would recommend promoting longer contracts for our customers, making them more appealing to customers.
+
+## Next Steps
+
+- Figure out why month to month and fiber optic customers are churning at such a high rate.
+- Consider adding different hyperparameters to models. 
